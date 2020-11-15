@@ -49,7 +49,7 @@ const LandingPage = () => {
           <OpeningText>
             I am {moment('19960704', 'YYYYMMDD').fromNow().split(' ')[0]} years old. I currently
             working at PT.Xsis Mitra Utama, and get placement at PT.Xapiens Technology Indonesia. I
-            am still "Newbie" in web deleveloper. I like to learn something especially related to
+            am still "Newbie" in web developer. I like to learn something especially related to
             Front End Developer
           </OpeningText>
         </Content>
