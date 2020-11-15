@@ -42,6 +42,10 @@ export const Image = styled.img`
     height: 150px;
     width: 150px;
   }
+  @media (max-height: 655px) {
+    height: 120px;
+    width: 120px;
+  }
 `
 export const Text = styled.div`
   display: flex;
