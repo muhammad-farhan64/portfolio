@@ -74,7 +74,7 @@ export const FlibBoxInner = styled.div`
 `
 export const FlibBox = styled.div`
   background-color: transparent;
-  height: 15vh;
+  height: 20vh;
   margin: 10vh auto;
   /* perspective: 1000px; */
   &:hover ${FlibBoxInner} {
