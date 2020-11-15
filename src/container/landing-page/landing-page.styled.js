@@ -19,11 +19,12 @@ export const NameDiv = styled.div`
   letter-spacing: 3px;
   font-size: 26px;
   font-family: 'Orbitron', sans-serif;
-  @media (min-width: 300px) {
-    font-size: 14px;
-  }
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
     font-size: 18px;
+  }
+
+  @media (max-width: 474px) {
+    font-size: 16px;
   }
 `
 
@@ -57,14 +58,11 @@ export const OpeningText = styled.div`
   margin: auto;
   text-align: justify;
   font-family: 'Roboto', sans-serif;
-  @media (min-width: 300px) {
-    width: 15rem;
-  }
-  @media (min-width: 768px) {
-    width: 20rem;
-  }
-  @media (min-width: 960px) {
+  @media (max-width: 960px) {
     width: 30rem;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
   }
 `
 
