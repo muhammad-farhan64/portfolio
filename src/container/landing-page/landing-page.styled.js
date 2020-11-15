@@ -36,8 +36,8 @@ export const Image = styled.img`
   transform: rotateY(-180deg);
   border-radius: 50%;
   @media (max-width: 768px) {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
   }
 `
 export const Text = styled.div`
@@ -74,9 +74,8 @@ export const FlibBoxInner = styled.div`
 `
 export const FlibBox = styled.div`
   background-color: transparent;
-  width: 300px;
-  height: 200px;
-  margin: 5vh auto;
+  height: 15vh;
+  margin: 10vh auto;
   /* perspective: 1000px; */
   &:hover ${FlibBoxInner} {
     transform: rotateY(180deg);
